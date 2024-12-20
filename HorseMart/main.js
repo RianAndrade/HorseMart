@@ -17,6 +17,11 @@ app.get('/cursos', (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'cursos.html'));
 });
 
+// Rota para a página de professores
+app.get('/professores', (req, res) => {
+    res.sendFile(path.join(__dirname, 'public', 'professores.html'));
+});
+
 // Rota para a página Sobre
 app.get('/sobre', (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'sobre.html'));
