@@ -1,7 +1,7 @@
 {
   "name": "horsemart",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.5.0",
   "scripts": {
     "dev": "nodemon main.js",
     "build": "vite build",
@@ -12,7 +12,6 @@
   },
   "dependencies": {
     "bootstrap": "^5.3.3",
-    "expres": "^0.0.5",
     "express": "^4.21.2",
     "nodemon": "^3.1.9"
   }

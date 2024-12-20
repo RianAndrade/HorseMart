@@ -12,6 +12,7 @@ RUN apk add bash \
 
 RUN npm install bootstrap
 RUN npm install next
+RUN npm install nodemon
 
 COPY . .
 
