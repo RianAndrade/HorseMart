@@ -1,9 +1,0 @@
-services:
-  horsemart:
-    build: ./HorseMart/
-    ports:
-      - "8000:8000"
-    volumes:
-      - ./HorseMart:/HorseMart
-    command: npm run dev
-
