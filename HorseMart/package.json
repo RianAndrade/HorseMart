@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.5.0",
   "scripts": {
-    "dev": "nodemon main.js",
+    "dev": "node main.js",
     "build": "vite build",
     "preview": "vite preview"
   },
@@ -12,7 +12,5 @@
   },
   "dependencies": {
     "bootstrap": "^5.3.3",
-    "express": "^4.21.2",
-    "nodemon": "^3.1.9"
-  }
-}
+    "express": "^4.21.2"
+  } }
